@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+header {
+    width: auto;
+    height: 100px;
+    background-color: white;
+}
+header #logo {
+    margin-left: 78px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #63806F;
+    margin-left: 148px;
+    margin-top: -53px;
+    text-shadow: 3px 2px 8px rgba(0, 0, 0, 0.3);
+}
+nav .menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 452px;
+    margin-top: -32px;
+}
+nav .menu li {
+    margin: 0 50px;
+}
+nav .menu li a {
+    color: #63806F;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+nav .menu li a:hover {
+    color: #50cb50;
+}
+header button {
+    width: 110px;
+    height: 25px;
+    background-color: #63806F;
+    color: #ECECEC;
+    display: flex;
+    margin-left: 1247px;
+    margin-top: -23.5px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: inset 30px 20px 20px -7px rgba(0, 0, 0, 0.2);
+}
+.banner #banner-image img {
+    width: 1285px;
+    height: 330px;
+    margin-left: 78px;
+    border-radius: 15px;
+}
+.travel-content {
+    width: 1285px;
+    height: 444px;
+    margin-left: 78px;
+}
+.travel-content #text-content {
+    width: 469px;
+    height: 350px;
+    margin-top: 20px;
+}
+.travel-content #text-content h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #4F665A;
+}
+.travel-content #text-content p {
+    font-size: 17px;
+    color: #3E5248;
+}
+.travel-content button {
+    width: 194px;
+    height: 51px;
+    border-radius: 10px;
+    background-color: #63806F;
+    color: #ECECEC;
+    margin-top: 30px;
+    box-shadow: inset 10px 20px 20px -7px rgba(0, 0, 0, 0.2);
+}
+.travel-content button a {
+    color: #ECECEC;
+    text-decoration: none;
+    font-size: 20px;
+}
+.travel-content #content-cards {
+    width: 802px;
+    height: 444px;
+    margin-left: 483px; 
+}
+.travel-content #content-cards #card-praia1 {
+    width: 232px;
+    height: 271px;
+    border: 4px solid #ECECEC;
+    border-radius: 30px;
+    margin-top: -431px;
+}
+.travel-content #content-cards #card-praia1 img {
+    border-radius: 25px;
+}
+.travel-content #content-cards #card-eiffel {
+    width: 232px;
+    height: 271px;
+    border: 4px solid #ECECEC;
+    border-radius: 30px;
+    margin-top: -279px;
+    margin-left: 281.8px;
+}
+.travel-content #content-cards #card-eiffel img {
+    border-radius: 25px;
+}
+.travel-content #content-cards #card-coliseu {
+    width: 232px;
+    height: 271px;
+    border: 4px solid #ECECEC;
+    border-radius: 30px;
+    margin-top: -279px;
+    margin-left: 561.8px;
+}
+.travel-content #content-cards #card-coliseu img {
+    border-radius: 25px;
+}
+.travel-content #cards-text #text-mar {
+    width: 232px;
+    height: 130px;
+    border: 2px solid #ECECEC;
+    border-radius: 30px;
+    margin-top: -150px;
+    margin-left: 483px;
+    text-align: center;
+}
+.travel-content #cards-text #text-mar p {
+    color: #3E5248;
+    font-size: 14px;
+    padding-top: 25px;
+    word-break: break-word;
+}
+.travel-content #cards-text #text-eiffel {
+    width: 232px;
+    height: 130px;
+    border: 2px solid #ECECEC;
+    border-radius: 30px;
+    margin-top: -133px;
+    margin-left: 765px;/*765px*/
+    text-align: center;
+}
+.travel-content #cards-text #text-eiffel p {
+    color: #3E5248;
+    font-size: 14px;
+    padding-top: 20px;
+    word-break: break-word;
+}
+.travel-content #cards-text #text-coliseu {
+    width: 232px;
+    height: 130px;
+    border: 2px solid #ECECEC;
+    border-radius: 30px;
+    margin-top: -133px;
+    margin-left: 1049px;
+    text-align: center;
+}
+.travel-content #cards-text #text-coliseu p {
+    color: #3E5248;
+    font-size: 14px;
+    padding-top: 20px;
+    word-break: break-word;
+}
+.best-destination {
+    width: auto;
+    height: 734px;
+    background-color: #526B5C;
+    margin-top: 100px;
+    padding-top: 30px;
+    box-shadow: 0 6px 30px -2px;
+}
+.best-destination #introductory-text {
+    width: 1145px;
+    height: 140px;
+    margin: 0 auto;
+}
+.best-destination #introductory-text h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #ECECEC;
+}
+.best-destination #introductory-text p {
+    font-size: 16px;
+    text-align: center;
+    color: #ECECEC;
+}
+.best-destination #cards-destinations #card-grecia {
+    width: 340px;
+    height: 422px;
+    background-color: #ECECEC;
+    margin-left: 90px;
+    margin-top: 70px;
+    border-radius: 30px;
+    box-shadow: 50px 20px 110px -20px #14201D;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.best-destination #cards-destinations #card-grecia:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.best-destination #cards-destinations #card-grecia img {
+    border-radius: 30px 30px 0 0;
+}
+.best-destination #cards-destinations #card-grecia p {
+    padding-left: 15px;
+    color: #14201D;
+}
+.best-destination #cards-destinations #card-japao {
+    width: 340px;
+    height: 422px;
+    background-color: #ECECEC;
+    margin-left: 550px;
+    margin-top: -422px;
+    border-radius: 30px;
+    box-shadow: 50px 20px 110px -20px #14201D;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.best-destination #cards-destinations #card-japao:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.best-destination #cards-destinations #card-japao img {
+    border-radius: 30px 30px 0 0;
+}
+.best-destination #cards-destinations #card-japao p {
+    padding-left: 15px;
+    color: #14201D;
+}
+.best-destination #cards-destinations #card-mexico {
+    width: 340px;
+    height: 422px;
+    background-color: #ECECEC;
+    margin-left: 1010px;
+    margin-top: -422px;
+    border-radius: 30px;
+    box-shadow: 50px 20px 110px -20px #14201D;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.best-destination #cards-destinations #card-mexico:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.best-destination #cards-destinations #card-mexico img {
+    border-radius: 30px 30px 0 0;
+}
+.best-destination #cards-destinations #card-mexico p {
+    padding-left: 15px;
+    color: #14201D;
+}
+.plans {
+    width: auto;
+    height: 725px;
+    background-color: #526B5C;
+    margin-top: 70px;
+    padding-top: 30px;
+    box-shadow: 0 6px 30px -2px;
+}
+.plans #introductory-text {
+    width: 1145px;
+    height: 157px;
+    margin: 0 auto;
+}
+.plans #introductory-text h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #ECECEC;
+}
+.plans #introductory-text p {
+    font-size: 16px;
+    text-align: center;
+    color: #ECECEC;
+}
+.plans #cards-plans #card-basic {
+    width: 310px;
+    height: 400px;
+    border: 5px solid #ECECEC;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 30px;
+    margin-left: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.plans #cards-plans #card-basic:hover {
+    transform: scale(1.05);
+}
+.plans #cards-plans #card-basic h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ECECEC;
+    padding-top: 5px;
+}
+.plans #cards-plans #card-basic p {
+    font-size: 17px;
+    color: #ECECEC;
+    margin-top: 50px;
+}
+.plans #cards-plans #card-basic #preco-basic {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 50px 160px 0 5px;
+}
+.plans #cards-plans #card-basic #button-basic {
+    width: 133px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 168px;
+    margin-top: -40px;
+}
+.plans #cards-plans #card-basic #button-basic button {
+    width: 130px;
+    height: 40px;
+    background-color: #63806F;
+    color: #ECECEC;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.plans #cards-plans #card-basic #sombra-basic {
+    width: 267px;
+    height: 106px;
+    border-radius: 10px;
+    background-color: #63806F;
+    margin: 0 auto;
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 75px;
+}
+.plans #cards-plans #card-best-value {
+    width: 360px;
+    height: 500px;
+    border: 5px solid #ECECEC;
+    background-color: #ECECEC;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: -442px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.plans #cards-plans #card-best-value:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.plans #cards-plans #card-best-value h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #526B5C;
+    padding-top: 10px;
+}
+.plans #cards-plans #card-best-value p {
+    font-size: 17px;
+    color: #526B5C;
+    margin-top: 50px;
+}
+.plans #cards-plans #card-best-value #preco-best {
+    font-size: 35px;
+    font-weight: bold;
+    color: #526B5C;
+    margin: 150px 150px 0 5px;
+}
+.plans #cards-plans #card-best-value #button-best {
+    width: 133px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 218px;
+    margin-top: -48px;
+}
+.plans #cards-plans #card-best-value #button-best button {
+    width: 130px;
+    height: 40px;
+    background-color: #63806F;
+    color: #ECECEC;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.plans #cards-plans #card-best-value #sombra-best {
+    width: 320px;
+    height: 116px;
+    border-radius: 10px;
+    background-color: #63806F;
+    margin: 0 auto;
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 110px;
+}
+.plans #cards-plans #card-exclusive {
+    width: 310px;
+    height: 400px;
+    border: 5px solid #ECECEC;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 30px;
+    margin-left: 990px;
+    margin-top: -501px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.plans #cards-plans #card-exclusive:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.plans #cards-plans #card-exclusive h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ECECEC;
+    padding-top: 5px;
+}
+.plans #cards-plans #card-exclusive p {
+    font-size: 17px;
+    color: #ECECEC;
+    margin-top: 50px;
+}
+.plans #cards-plans #card-exclusive #preco-exclusive {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 40px 150px 0 5px;
+}
+.plans #cards-plans #card-exclusive #button-exclusive {
+    width: 133px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 168px;
+    margin-top: -40px;
+}
+.plans #cards-plans #card-exclusive #button-exclusive button {
+    width: 130px;
+    height: 40px;
+    background-color: #63806F;
+    color: #ECECEC;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.plans #cards-plans #card-exclusive #sombra-exclusive {
+    width: 267px;
+    height: 106px;
+    border-radius: 10px;
+    background-color: #63806F;
+    margin: 0 auto;
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 75px;
+}
+footer {
+    width: auto;
+    height: 100px;
+    background-color: #526B5C;
+    margin-top: 15px;
+}
+footer #imagem-footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+}
